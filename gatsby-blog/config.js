@@ -10,10 +10,10 @@ const config = {
     logoLink: 'https://hasura.io/learn/',
     title:
       "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    //agithubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
     helpUrl: '',
     tweetText: '',
-    social: `<li>
+    asocial: `<li>
 		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
@@ -38,17 +38,20 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
+    
       '/introduction', // add trailing slash if enabled above
+      '/arosdfasdfdgerdfd',
       '/codeblock',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    //links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [],
     frontLine: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='https://hasura.io/learn/'>theyehs </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>mind map</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
